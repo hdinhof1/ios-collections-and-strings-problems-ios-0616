@@ -129,6 +129,8 @@
     return [[[digitList reverseObjectEnumerator] allObjects] mutableCopy];
 }
 -(NSArray *)reverseArray:(NSMutableArray *)array {
+    //pointer practice
+    
     return [[array reverseObjectEnumerator] allObjects];
 }
 
